@@ -23,3 +23,5 @@ with open('my_ads.csv', 'w') as csv_file:
     csv_writer.writeheader()
     for row in rows:
         csv_writer.writerow(row)
+        
+"""Based on an exercise in Lam Thuy Vo's "Mining Social Media", No Starch Press, 2020"""
